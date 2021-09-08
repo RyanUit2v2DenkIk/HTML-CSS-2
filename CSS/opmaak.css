@@ -1,6 +1,29 @@
 h1 {
-  color: rgb(25%, 0, 75%);
+  color: blue;
 }
 body {
   background-color: cyan;
 }
+
+h1, h2 {
+  text-align: center;
+}
+
+#keuzemenu li {
+  display: inline;
+}
+
+
+#keuzemenu {
+  overflow: hidden;
+}
+
+#keuzemenu a {
+  color: green;
+  text-decoration: none;
+}
+
+#keuzemenu :hover {
+  color: yellow;
+  background-color: green;
+  border-radius: 10px 10px 10px 10px;
