@@ -1,24 +1,47 @@
+
+
 h1 {
   color: blue;
 }
 body {
-  background-color: cyan;
+
 }
 
 h1, h2 {
   text-align: center;
 }
 
-#keuzemenu li {
+
+
+li {
   display: inline;
 }
 
 
-#keuzemenu {
+a {
   overflow: hidden;
 }
 
-#keuzemenu a {
+ a {
   color: green;
   text-decoration: none;
+}
+
+li :hover {
+  color: yellow;
+  background-color: green;
+  border-radius: 10px 10px 10px 10px;
+}
+
+header {
+  float: right;
+}
+
+ul {
+  border: 2px solid blue;
+  border: 4px solid yellow;
+  border-radius: 20px 20px 20px 20px;
+  list-style-type: none;
+  text-align: left;
+  background-color: yellow;
 }
