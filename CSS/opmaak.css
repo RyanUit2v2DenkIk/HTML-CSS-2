@@ -4,7 +4,6 @@ h1 {
   color: blue;
 }
 body {
-
 }
 
 h1, h2 {
@@ -37,7 +36,7 @@ li :hover {
 ul {
   border: 2px solid blue;
   border: 4px solid yellow;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px 20px 0px 0px;
   list-style-type: none;
   text-align: left;
   background-color: yellow;
@@ -55,4 +54,17 @@ td, th {
 * {
   margin: 0px;
   padding: 10px;
+}
+
+div {
+  border: 2px solid blue;
+  border: 4px solid yellow;
+  border-radius: 0px 0px 20px 20px;
+  list-style-type: none;
+  text-align: left;
+  background-color: yellow;
+}
+
+#ArtikelCoderclass {
+  float: right;
 }
