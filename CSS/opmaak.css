@@ -69,3 +69,17 @@ div {
 #ArtikelCoderclass {
   float: right;
 }
+
+#Wie {
+  float: left;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+}
+
+#footer {
+
+  bottom: 0px;
+}
