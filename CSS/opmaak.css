@@ -4,6 +4,7 @@ h1 {
   color: blue;
 }
 body {
+  font-family: 'Open Sans', sans-serif;
   background-image: url("https://www.exit-reizen.nl/app/uploads/public/5e4/d21/7d9/5e4d217d95a20396276421/oxbow_bend_in_grand_teton_national_park-1920x1282_80_00auto.jpg");
 }
 
@@ -41,6 +42,8 @@ ul {
   list-style-type: none;
   text-align: left;
   background-color: yellow;
+  opacity: 0.8;
+
 }
 
 td, th {
@@ -64,6 +67,7 @@ div {
   list-style-type: none;
   text-align: left;
   background-color: yellow;
+  opacity: 0.8;
 }
 
 #ArtikelCoderclass {
