@@ -93,3 +93,16 @@ footer {
 #footer {
   bottom: 0px;
 }
+
+iframe {
+  width: 600px;
+  height: 800px;
+  z-index: 100;
+}
+
+#mapsid {
+  float: right;
+  position: absolute;
+  left: 865px;
+  top: 137px;
+}
